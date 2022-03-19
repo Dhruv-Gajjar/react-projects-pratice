@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+/* Info  */
+
+.container {
+  margin: 0 auto;
+  width: 320px;
+  height: 800px;
+  background-color: #1a1b21;
+  align-items: center;
+  text-align: center;
+}
+
+.person-img {
+  width: 100%;
+  height: 320px;
+}
+
+.info {
+  color: white;
+}
+
+.info-name {
+  margin-top: 20px;
+}
+
+.dev {
+  color: #f3bf99;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.info-email {
+  font-size: 11px;
+  line-height: 150%;
+  margin: 7px 15px;
+}
+
+button {
+  width: 115px;
+  height: 35px;
+  margin: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.linkedin-btn {
+  background-color: #5093e2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: white;
+}
+
+/* About */
+
+.about {
+  color: white;
+  margin: 30px 32px;
+}
+
+.about-title {
+  font-weight: 700;
+  line-height: 25px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 13px;
+  text-align: start;
+}
+
+/* Intrest */
+.intrest {
+  color: white;
+  margin: 0 32px;
+  margin-bottom: 10px;
+}
+
+.intrest h1 {
+  font-weight: 700;
+  list-style: 25px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.intrest p {
+  font-size: 13px;
+  text-align: start;
+}
+
+/* Footer */
+footer {
+  background-color: #161619;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  width: 20px;
+  margin: auto;
+}
