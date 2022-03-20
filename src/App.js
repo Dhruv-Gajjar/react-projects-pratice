@@ -1,16 +1,27 @@
 import React from "react";
-import Info from "./components/Info";
-import About from "./components/About";
-import Intrest from "./components/Intrest";
-import Footer from "./components/Footer";
+import data from "./data";
+import Navbar from "./Navbar";
+import Card from "./Card";
 
 export default function App() {
+  let appData = data.map((items) => {
+    return (
+      <Card
+        key={items.id}
+        img={items.imageUrl}
+        title={items.title}
+        location={items.location}
+        text={items.description}
+        startDate={items.startDate}
+        endDate={items.endDate}
+        map={items.googleMapsUrl}
+      />
+    );
+  });
   return (
-    <div className="container">
-      <Info />
-      <About />
-      <Intrest />
-      <Footer />
+    <div>
+      <Navbar />
+      {appData}
     </div>
   );
 }
